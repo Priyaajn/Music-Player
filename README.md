@@ -85,5 +85,5 @@ Audio and image files must be correctly named and placed in the root directory.
 Favorites are not persisted after reload (no backend/localStorage).
 
 Only .mpeg files are supported currently.
-*******************************************************************************************************88
+----------------------------------------------------------------------------------------
 

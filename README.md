@@ -1,4 +1,5 @@
 🎵 Music Player Web App
+----------------------------
 A responsive and interactive music player built with HTML, CSS, and Vanilla JavaScript, featuring:
 
 Dynamic song list
@@ -12,7 +13,7 @@ Like/favorite feature
 Add/remove song functionality
 
 Animated welcome screen
-
+------------------------------------------------------------------------------------------------------
 🚀 Features
 ✅ Welcome Screen: Enter the player through a styled start button.
 
@@ -29,7 +30,7 @@ Animated welcome screen
 ❌ Remove Current Song: Delete the currently playing track.
 
 🧠 State Management: Keeps track of the current song, updates UI accordingly.
-
+------------------------------------------------------------------------------------------
 📁 Project Structure
 bash
 Copy
@@ -42,8 +43,8 @@ project-folder/
 ├── *.mpeg             # Music files
 ├── *.jpeg             # Song cover images
 └── README.md          # Project instructions
-📦 How to Use
-Clone or download the repo.
+--------------------------------------------------------------------------------------
+📦 How to Use :
 
 Place your music .mpeg and image .jpeg files in the same folder.
 
@@ -60,7 +61,7 @@ Like songs using the ❤️ icon.
 Add new songs using the Add Song button.
 
 Remove current songs using the Remove Current Song button.
-
+----------------------------------------------------------------------------
 ✍️ Adding Songs
 To add a new song:
 
@@ -77,7 +78,7 @@ Audio file name (e.g., newdawn.mpeg)
 Image file name (e.g., newdawn.jpeg)
 
 ⚠️ Ensure the .mpeg and .jpeg files are placed in the same directory as index.html.
-
+-----------------------------------------------------------------------------------------------------
 🎨 Tech Stack
 HTML5
 
@@ -86,7 +87,7 @@ CSS3 (including transitions and hover effects)
 Vanilla JavaScript (DOM manipulation & event handling)
 
 Font Awesome (for icons)
-
+--------------------------------------------------------------------------------------
 📌 Notes
 Audio and image files must be correctly named and placed in the root directory.
 
@@ -94,13 +95,3 @@ Favorites are not persisted after reload (no backend/localStorage).
 
 Only .mpeg files are supported currently.
 
-
-
-
-
-
-
-
-
-
-Ask ChatGPT

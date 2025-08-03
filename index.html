@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0062c551be.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+<div class="welcome-screen" id="welcomeScreen">
+    <h1>Welcome to Music Player</h1>
+    <div class="enter-icon" onclick="enterApp()">
+        <i class="fa-solid fa-play"></i>
+    </div>
+</div>
+
+<div class="container">
+    <div class="music-player active" id="playerPage">
+        <nav>
+            <div class="circle">
+                <i class="fa-solid fa-angle-left" onclick="mainPage()"></i>  
+            </div>
+                    <div class="circle">
+                <i class="fa-solid fa-bars" onclick="showSongList()"></i>
+            </div>
+        </nav>
+        <img src="5 ams.jpeg" alt="song.img" class="song-img" id="song-img">
+        <h1 id="title">5 am</h1>
+        <p id="artist">James Renaldo</p>
+        <div style="text-align: center; font-size: 24px;">
+            <i class="fa-regular fa-heart" id="favIcon" onclick="toggleFavorite()"></i>
+        </div>
+        <audio id="song">
+            <source src="5 am.mpeg" type="audio/mpeg">
+        </audio>
+        <input type="range" value="0" id="progress">
+
+        <div class="volume-control">
+            <label for="volumeSlider">🔊</label>
+            <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="1">
+        </div>
+
+        <div class="controls">
+            <div onclick="playPrev()"><i class="fa-solid fa-backward"></i></div>
+            <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+            <div onclick="playNext()"><i class="fa-solid fa-forward"></i></div>
+        </div>
+    </div>
+
+    <div class="song-list" id="songListPage" style="display: none;">
+        <nav>
+            <div class="circle" onclick="backToPlayer()">
+                <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="song-actions">
+                <button onclick="addSong()">Add Song</button>
+                <button onclick="removeCurrentSong()">Remove Current Song</button>
+            </div>
+            <h3 style="margin-left: 10px;">Song List</h3>
+        </nav>
+        <ul id="list">
+            <li onclick="loadSong(0)">5 am - James Renaldo</li>
+            <li onclick="loadSong(1)">Callin U - Mike Leo</li>
+            <li onclick="loadSong(2)">Chand Sifarish - DJ Nova </li>
+            <li onclick="loadSong(3)">Shaky Shaky - Michale</li>
+            <li onclick="loadSong(4)">Meri Jan - MJ Lorense</li>
+        </ul>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

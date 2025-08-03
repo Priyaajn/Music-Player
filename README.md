@@ -13,8 +13,9 @@ Like/favorite feature
 Add/remove song functionality
 
 Animated welcome screen
+
+🚀 Features :
 ------------------------------------------------------------------------------------------------------
-🚀 Features
 ✅ Welcome Screen: Enter the player through a styled start button.
 
 ▶️ Play Controls: Seamlessly play, pause, skip to next/previous tracks.
@@ -30,9 +31,9 @@ Animated welcome screen
 ❌ Remove Current Song: Delete the currently playing track.
 
 🧠 State Management: Keeps track of the current song, updates UI accordingly.
-------------------------------------------------------------------------------------------
-📦 How to Use :
 
+📦 How to Use :
+------------------------------------------------------------------------------------------------------
 Place your music .mpeg and image .jpeg files in the same folder.
 
 Open index.html in any modern browser.
@@ -48,8 +49,9 @@ Like songs using the ❤️ icon.
 Add new songs using the Add Song button.
 
 Remove current songs using the Remove Current Song button.
-----------------------------------------------------------------------------
-✍️ Adding Songs
+
+✍️ Adding Songs :
+------------------------------------------------------------------------------------------------------
 To add a new song:
 
 Click “Add Song”
@@ -75,11 +77,13 @@ CSS3 (including transitions and hover effects)
 Vanilla JavaScript (DOM manipulation & event handling)
 
 Font Awesome (for icons)
+
+📌 Notes :
 --------------------------------------------------------------------------------------
-📌 Notes
 Audio and image files must be correctly named and placed in the root directory.
 
 Favorites are not persisted after reload (no backend/localStorage).
 
 Only .mpeg files are supported currently.
+*******************************************************************************************************88
 

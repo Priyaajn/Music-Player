@@ -31,19 +31,6 @@ Animated welcome screen
 
 🧠 State Management: Keeps track of the current song, updates UI accordingly.
 ------------------------------------------------------------------------------------------
-📁 Project Structure
-bash
-Copy
-Edit
-project-folder/
-│
-├── index.html         # Main HTML structure
-├── style.css          # Styling for UI elements
-├── script.js          # JavaScript logic
-├── *.mpeg             # Music files
-├── *.jpeg             # Song cover images
-└── README.md          # Project instructions
---------------------------------------------------------------------------------------
 📦 How to Use :
 
 Place your music .mpeg and image .jpeg files in the same folder.
@@ -78,8 +65,9 @@ Audio file name (e.g., newdawn.mpeg)
 Image file name (e.g., newdawn.jpeg)
 
 ⚠️ Ensure the .mpeg and .jpeg files are placed in the same directory as index.html.
+
+🎨 Tech Stack :
 -----------------------------------------------------------------------------------------------------
-🎨 Tech Stack
 HTML5
 
 CSS3 (including transitions and hover effects)
